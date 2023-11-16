@@ -21,7 +21,7 @@ export default function App() {
               compra.
             </p>
             <div className="flex justify-center md:justify-normal">
-            <button className="bg-[#89C241] md:bg-[#F64B25] rounded-[25px] px-20 mt-8 py-4 text-[20px] font-[Inter] font-bold text-white">Consultar pedido</button>
+              <button className="bg-[#89C241] md:bg-[#F64B25] rounded-[25px] px-20 mt-8 py-4 text-[20px] font-[Inter] font-bold text-white">Consultar pedido</button>
             </div>
           </div>
           <img src="image/hero.png" alt="" className="w-auto" />
@@ -77,8 +77,8 @@ export default function App() {
       <section id="inicios">
         <div className="containers grid md:grid-cols-2 gap-[88.5px] pt-[40px] md:pt-[107px] pb-[72px]">
           <div className="relative mx-w-[328px]">
-              <img src="/image/inicios/inicios1.png" alt="" className="w-[280px] md:w-[580px] rounded-lg"/>
-              <img src="/image/inicios/inicios2.png" alt="" className="absolute top-[346px] -mt-[230px] ml-[133px] w-[211px] md:w-[440px] md:translate-x-[50%] md:right-[50%] md:-mt-[15%] rounded-lg"/>
+            <img src="/image/inicios/inicios1.png" alt="" className="w-[280px] md:w-[580px] rounded-lg" />
+            <img src="/image/inicios/inicios2.png" alt="" className="absolute top-[346px] -mt-[230px] ml-[133px] w-[211px] md:w-[440px] md:translate-x-[50%] md:right-[50%] md:-mt-[15%] rounded-lg" />
           </div>
           <div className="lg:mb-[262px] relative">
             <h2 className="text-[#094D10] font-bold text-left">Nuestros inicios</h2>
@@ -132,18 +132,20 @@ export default function App() {
         </div>
       </section>
       <footer >
-        <div className="bg-cover bg-center h-screen bg-[url('/public/image/footer.jpg')] " >
-          <div className="container py-[72px] gap-[72px] ">
-            <div className="gap-[64px]">
-              <div>
-                <h2 className="text-center text-white">
+        <div
+          className="bg-cover bg-center w-full h-full bg-[url('/public/image/footer.jpg')] relative z-10" >
+          <div className="bg-black/60 absolute w-full h-full !z-20"></div>
+          <div className="containers pt-[72px] grid justify-items-center justify-center">
+            <div className="grid justify-items-center justify-center gap-[64px] !z-40">
+              <div className="z-30">
+                <h2 className="text-center text-white ">
                   ¿Te gustaría colaborar con nosotros?
                 </h2>
                 <p className="text-center text-white">Envíanos un mensaje y con gusto conversamos</p>
               </div>
-              <div className="my-[32px]">
+              <div className="my-[32px] z-30">
                 <h4 className="text-center text-[#FF9A2E] mb-[32px]">nutrip@gmail.com</h4>
-                <div className="flex justify-center items-center gap-[31.63px]">
+                <div className="flex justify-center items-center gap-[32px]">
                   <img src="/image/redessociales/facebook.svg" alt="" />
                   <img src="/image/redessociales/youtube.svg" alt="" />
                   <img src="/image/redessociales/insta.svg" alt="" />
@@ -151,15 +153,13 @@ export default function App() {
                   <img src="/image/redessociales/linkedin.svg" alt="" />
                 </div>
               </div>
-            </div>
-            <div className="flex justify-center">
-              <img src="/image/logofooter.svg" alt="" />
+              <img src="/image/logofooter.svg" alt="z-30" />
+              <p className="text-center text-white z-30">Todos los derechos reservados © NUTRIP | Design by CICLOS STUDIO</p>
             </div>
           </div>
-          <p className="text-center text-white">Todos los derechos reservados © NUTRIP | Design by CICLOS STUDIO</p>
         </div>
       </footer>
 
     </>
-        )
+  )
 }
