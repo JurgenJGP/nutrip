@@ -17,7 +17,7 @@
 }
 @layer components{
     .cards{
-        @apply absolute top-[230px] translate-x-[50%] right-[50%] bg-white rounded-lg px-3 py-4 w-[216px]
+        @apply absolute ms:top-[72%] translate-x-[50%] right-[50%] bg-white rounded-lg px-3 py-4 w-[216px]
     }
 
 }
