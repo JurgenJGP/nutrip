@@ -33,9 +33,9 @@ export default function App() {
             <h2>
               ¿Qué nos motiva cada día?
             </h2>
-            <div className="grid gap-y-[180px] md:grid-cols-3 md:gap-4 lg:gap-[96px] mb-[131px]">
-              <div className="relative col-auto ">
-                <img src="/image/motiva/motiva1.jpg" alt="" className="rounded-[20px] w-full" />
+            <div className="grid gap-y-[180px] sm:grid-cols-2 lg:grid-cols-3 md:gap-x-4 md:gap-y-[150px] lg:gap-[96px] mb-[131px]">
+              <div className="flex justify-center relative col-auto ">
+                <img src="/image/motiva/motiva1.jpg" alt="" className="rounded-[20px] max-w-[500px] w-full" />
                 <div className="cards">
                   <h3>
                     Alimentación <br></br> saludable
@@ -45,8 +45,8 @@ export default function App() {
                   </p>
                 </div>
               </div>
-              <div className="relative col-auto ">
-                <img src="/image/motiva/motiva2.jpg" alt="" className="rounded-[20px] w-full" />
+              <div className="flex justify-center relative col-auto ">
+                <img src="/image/motiva/motiva2.jpg" alt="" className="rounded-[20px] max-w-[500px] w-full" />
                 <div className="cards">
                   <h3>
                     Alimentación <br></br> saludable
@@ -56,8 +56,8 @@ export default function App() {
                   </p>
                 </div>
               </div>
-              <div className="relative col-auto ">
-                <img src="/image/motiva/motiva3.jpg" alt="" className="rounded-[20px] w-full" />
+              <div className="flex justify-center relative col-auto ">
+                <img src="/image/motiva/motiva3.jpg" alt="" className="rounded-[20px] max-w-[500px] w-full" />
                 <div className="cards">
                   <h3>
                     Alimentación <br></br> saludable
