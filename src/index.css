@@ -27,6 +27,6 @@
         px-[4%] xl:px-0
     }
     .cardtest{
-       @apply bg-white flex flex-col mx-auto  w-[220px] h-[383px] rounded-tl-[110px] rounded-tr-[110px] gap-[23px] px-[11.5px] 
+       @apply bg-white flex justify-center flex-col mx-auto  w-[220px] h-[383px] rounded-tl-[110px] rounded-tr-[110px] gap-[23px] px-[11.5px] 
     }
 }

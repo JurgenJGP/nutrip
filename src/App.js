@@ -1,4 +1,5 @@
 import CardMotiva from "./components/cards/CardMotiva";
+import CardTestimonio from "./components/cards/CardTestimonio";
 
 export default function App() {
 	return (
@@ -16,7 +17,7 @@ export default function App() {
         </div>
       </div> */}
 			<section id="hero">
-				<div className="containers pt-[94px] pb-[54px] grid gap-y-5 md:grid-cols-2 items-center">
+				<div className="containers pt-[94px] pb-[54px] grid gap-5 md:grid-cols-2 items-center">
 					<div className=" ">
 						<h1
 							className="text-[#094D10] font-[Sora] font-bold text-center text-[45px] leading-tight
@@ -51,15 +52,17 @@ export default function App() {
               			sm:grid-cols-2 sm:gap-x-4 md:gap-y-[150px] lg:grid-cols-3 lg:gap-[96px] mb-[131px]">
 							<CardMotiva 
 								title="Hola" 
-								text="ascsdcvzdsvsd"
+								text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva1.jpg">
 							</CardMotiva>
 							<CardMotiva 
 								title="Hola2" 
-								text="ascshjjzdsvsd"
+								text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva2.jpg">
 							</CardMotiva>
-							<CardMotiva title="Hola3" text="ascsdcvzdsvsd"
+							<CardMotiva 
+                title="Hola3" 
+                text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva3.jpg">
 							</CardMotiva>
 						</div>
@@ -109,45 +112,21 @@ export default function App() {
 						Ellos ya probaron nuestros productos
 					</h2>
 					<div className="grid gap-8 sm:grid-cols-2 sm:gap-x-4 md:grid-cols-3 lg:gap-[182px] lg:px-[80px]">
-						<div className="cardtest ">
-							<div className=" flex justify-center items-center">
-								<img src="/image/testimonios/testimonio1.png" alt="" className="rounded-lg w-[160px]" />
-							</div>
-							<div>
-								<p className="text-center">
-									Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable.
-								</p>
-								<p className="text-center mt-[8px]">
-									Martita, 25 años
-								</p>
-							</div>
-						</div>
-						<div className="cardtest">
-							<div className=" flex justify-center items-center">
-								<img src="/image/testimonios/testimonio2.png" alt="" className="rounded-lg w-[160px]" />
-							</div>
-							<div>
-								<p className="text-center">
-									Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable.
-								</p>
-								<p className="text-center mt-[8px]">
-									Martita, 25 años
-								</p>
-							</div>
-						</div>
-						<div className="cardtest ">
-							<div className=" flex justify-center items-center">
-								<img src="/image/testimonios/testimonio3.png" alt="" className="rounded-lg w-[160px]" />
-							</div>
-							<div>
-								<p className="text-center">
-									Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable.
-								</p>
-								<p className="text-center mt-[8px]">
-									Martita, 25 años
-								</p>
-							</div>
-						</div>
+						<CardTestimonio
+							img="/image/testimonios/testimonio1.png"
+							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
+							text2="Martita, 25 años">
+						</CardTestimonio>
+						<CardTestimonio
+							img="/image/testimonios/testimonio2.png"
+							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
+							text2="Martita, 25 años">
+						</CardTestimonio>
+						<CardTestimonio
+							img="/image/testimonios/testimonio3.png"
+							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
+							text2="Martita, 25 años">
+						</CardTestimonio>
 					</div>
 				</div>
 			</section>
