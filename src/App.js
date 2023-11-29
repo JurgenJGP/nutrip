@@ -1,21 +1,11 @@
 import CardMotiva from "./components/cards/CardMotiva";
 import CardTestimonio from "./components/cards/CardTestimonio";
+import NavBar from "./navbar/NavBar"
 
 export default function App() {
 	return (
 		<>
-
-			{/* <div className="text-gray-500 bg-yellow-800">
-        <div className="container flex mx-auto px-24 py-2 justify-between">
-            <div className="font-semibold text-[#009944] text-[26px]">logo</div>
-            <div className="flex gap-x-4 items-center">
-                <a href="">Nosotros</a>
-                <a href="">Nuestra motivacion</a>
-                <a href="">Testimonios</a>
-                <a href="" className="buttom bg-red-500 rounded px-4 py-2">Únete a nosotos</a>
-            </div>
-        </div>
-      </div> */}
+			<NavBar/>
 			<section id="hero">
 				<div className="containers pt-[94px] pb-[54px] grid gap-5 md:grid-cols-2 items-center">
 					<div className=" ">
@@ -149,11 +139,11 @@ export default function App() {
 									nutrip@gmail.com
 								</h4>
 								<div className="flex justify-center items-center gap-4 sm:gap-[32px]">
-									<img src="/image/redessociales/facebook.svg" alt="" />
-									<img src="/image/redessociales/youtube.svg" alt="" />
-									<img src="/image/redessociales/insta.svg" alt="" />
-									<img src="/image/redessociales/twitter.svg" alt="" />
-									<img src="/image/redessociales/linkedin.svg" alt="" />
+									<img src="/svg/redessociales/redessociales/facebook.svg" alt="" />
+									<img src="/svg/redessociales/redessociales/youtube.svg" alt="" />
+									<img src="/svg/redessociales/redessociales/insta.svg" alt="" />
+									<img src="/svg/redessociales/redessociales/twitter.svg" alt="" />
+									<img src="/svg/redessociales/redessociales/linkedin.svg" alt="" />
 								</div>
 							</div>
 							<img src="/image/logofooter.svg" alt="z-30" />
