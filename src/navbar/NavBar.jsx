@@ -2,7 +2,7 @@ import { useMediaQuery } from "react-responsive"
 import BtnNav from "../components/buttons/BtnNav"
 
 const NavBar = () => {
-    const isDesktop = useMediaQuery({ query: 'min-width: 1024px' })
+    const isDesktop = useMediaQuery({ query: '(min-width: 880px)' })
     return (
         <header className="flex items-center justify-center w-full h-[88px]">
             <nav

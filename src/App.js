@@ -1,11 +1,11 @@
 import CardMotiva from "./components/cards/CardMotiva";
-import CardTestimonio from "./components/cards/CardTestimonio";
+import TestimonioSwipers from "./components/swipers/TestimonioSwipers";
 import NavBar from "./navbar/NavBar"
 
 export default function App() {
 	return (
 		<>
-			<NavBar/>
+			<NavBar />
 			<section id="hero">
 				<div className="containers pt-[94px] pb-[54px] grid gap-5 md:grid-cols-2 items-center">
 					<div className=" ">
@@ -40,19 +40,19 @@ export default function App() {
 						<div
 							className="grid gap-y-[180px] 
               			sm:grid-cols-2 sm:gap-x-4 md:gap-y-[150px] lg:grid-cols-3 lg:gap-[96px] mb-[131px]">
-							<CardMotiva 
-								title="Hola" 
+							<CardMotiva
+								title="Hola"
 								text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva1.jpg">
 							</CardMotiva>
-							<CardMotiva 
-								title="Hola2" 
+							<CardMotiva
+								title="Hola2"
 								text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva2.jpg">
 							</CardMotiva>
-							<CardMotiva 
-                title="Hola3" 
-                text="Resilencia en el sistema de producción de alimentos orgánicos"
+							<CardMotiva
+								title="Hola3"
+								text="Resilencia en el sistema de producción de alimentos orgánicos"
 								img="/image/motiva/motiva3.jpg">
 							</CardMotiva>
 						</div>
@@ -101,23 +101,7 @@ export default function App() {
 						className="text-center">
 						Ellos ya probaron nuestros productos
 					</h2>
-					<div className="grid gap-8 sm:grid-cols-2 sm:gap-x-4 md:grid-cols-3 lg:gap-[182px] lg:px-[80px]">
-						<CardTestimonio
-							img="/image/testimonios/testimonio1.png"
-							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
-							text2="Martita, 25 años">
-						</CardTestimonio>
-						<CardTestimonio
-							img="/image/testimonios/testimonio2.png"
-							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
-							text2="Martita, 25 años">
-						</CardTestimonio>
-						<CardTestimonio
-							img="/image/testimonios/testimonio3.png"
-							text1="Me ayudaron a  complementar mi dieta con productos de calidad y alimentación saludable."
-							text2="Martita, 25 años">
-						</CardTestimonio>
-					</div>
+					<TestimonioSwipers />
 				</div>
 			</section>
 			<footer >
