@@ -4,7 +4,7 @@ const CardMotiva = ({ img, title, text }) => {
         <div className="flex justify-center relative col-auto ">
             <img
                 src={img} alt={title}
-                className="rounded-[20px] max-w-[500px] w-full">
+                className="rounded-[20px] object-cover max-w-[332px] w-full">
             </img>
             <div className="cards">
                 <h3>

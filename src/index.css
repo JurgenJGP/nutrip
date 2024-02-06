@@ -5,7 +5,7 @@
 
 @layer base{
     h2{
-        @apply text-green-950 font-[Sora] font-bold text-center text-3xl mb-[40px]
+        @apply text-green-950 font-[Sora] font-bold text-center text-[24px] md:text-[36px] mb-[40px]
     }
     h3{
         @apply text-[#094D10] text-xl text-center mb-2.5 font-[Sora] font-bold
@@ -23,10 +23,15 @@
 }
 @layer utilities {
     .containers{
-        @apply w-full mx-auto max-w-[1184px]
+        @apply w-full mx-auto !max-w-[1184px]
         px-[4%] xl:px-0
     }
     .cardtest{
        @apply bg-white flex justify-center flex-col mx-auto  w-[220px] h-[383px] rounded-tl-[110px] rounded-tr-[110px] gap-[23px] px-[11.5px] 
     }
+}
+
+@font-face {
+    font-family: tahoma;
+    src: url('/src/font/Tahoma_Regular.ttf');
 }

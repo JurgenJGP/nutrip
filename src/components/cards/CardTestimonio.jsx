@@ -9,7 +9,7 @@ const CardTestimonio = ({img, text1, text2 }) => {
                 <p className="text-center">
                     {text1}
                 </p>
-                <p className="text-center mt-[8px] font-bold">
+                <p className="text-center mt-[8px] font-bold text-black ">
                     {text2}
                 </p>
             </div>
